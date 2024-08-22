@@ -13,10 +13,10 @@ class Character:
         # Indicar posición inicial y tamaño del personaje con la info anterior
         self.rect = pygame.Rect(self.posX, self.posY, self.width, self.height)
 
-# Función para dibujar el personaje en el juego
-def draw_character(self, window):
-    # Obtener el tamaño especificado y las posiciones especificadas en la clase anterior
-    self.rect = pygame.Rect(self.posX, self.posY, self.width, self.height)
-    # Dibujar personaje en la ventana del juego con el color y el tamaño especificado
-    # Dibujarlo en la posición inicial establecida en la clase anterior
-    pygame.draw.rect(window, self.color, self.rect)
+    # Función para dibujar el personaje en el juego
+    def draw_character(self, window):
+        # Obtener el tamaño especificado y las posiciones especificadas en la clase anterior
+        self.rect = pygame.Rect(self.posX, self.posY, self.width, self.height)
+        # Dibujar personaje en la ventana del juego con el color y el tamaño especificado
+        # Dibujarlo en la posición inicial establecida en la clase anterior
+        pygame.draw.rect(window, self.color, self.rect)
